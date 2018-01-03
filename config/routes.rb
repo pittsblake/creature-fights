@@ -5,6 +5,6 @@ Rails.application.routes.draw do
       resources :creatures
     end
     get "/allcreatures", to: "all_creatures#index"
-    get "/allcreatures/random", to: "all_creatures#show"
+    # get "/allcreatures/random", to: "all_creatures#show"
   end
 end

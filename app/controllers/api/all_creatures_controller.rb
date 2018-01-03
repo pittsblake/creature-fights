@@ -7,11 +7,11 @@ class Api::AllCreaturesController < ApplicationController
         render json: @creatures
     end
 
-    def show    
-        @creatures = Services::MarvelServices.get_creatures
-        @creature = @creatures.sample
-        # @id = @creature.id
-        render json: @creature
-    end
+    # def show    
+    #     @creatures = Services::MarvelServices.get_creatures
+    #     @creature = @creatures.sample
+    #     # @id = @creature.id
+    #     render json: @creature
+    # end
 
 end
